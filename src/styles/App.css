@@ -17,3 +17,27 @@
   width: 33.33%;
   float: left;
 }
+
+.blogpost:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.feedpost{
+  width: 90%;
+  margin: 0 auto;
+  clear: both;
+  height: 200px;
+}
+.feedImg{
+  width: 300px;
+  float: left;
+}
+.feedDesc{
+  padding-left: 20px;
+  clear: right;
+  width: 600px;
+  text-align: left;
+  /*background-color: red;*/
+}
+
