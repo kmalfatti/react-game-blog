@@ -4,7 +4,8 @@ import Navbar from './Navbar'
 import Carousel from './Carousel'
 // import Blogpost from './Blogpost'
 import BlogpostContainer from './BlogpostContainer.jsx'
-import Feedpost from './Feedpost'
+// import Feedpost from './Feedpost'
+import FeedpostContainer from './FeedpostContainer.jsx'
 
 export default class App extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class App extends Component {
           <Navbar />
           <Carousel />
           <BlogpostContainer />
-          <Feedpost />
+          <FeedpostContainer />
         </div>
     );
   }
