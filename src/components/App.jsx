@@ -11,6 +11,11 @@ export default class App extends Component {
           <Navbar />
           <Carousel />
           <Blogpost />
+          <Blogpost />
+          <Blogpost />
+          <Blogpost />
+          <Blogpost />
+          <Blogpost />
         </div>
     );
   }
