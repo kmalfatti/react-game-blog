@@ -3,27 +3,35 @@ import React, { Component } from 'react';
 export default class Carousel extends Component{
   render(){
     return(
-      <div className="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-        <div className="orbit-wrapper">
-          <div className="orbit-controls">
-            <button className="orbit-previous"><span className="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-            <button className="orbit-next"><span className="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+      <div id="myCarousel" className="carousel" data-ride="carousel">
+        <ol className="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div className="carousel-inner">
+          <div className="item active">
+            <img src="http://via.placeholder.com/1250x450" alt="" />
           </div>
-          <ul className="orbit-container">
-            <li className="is-active orbit-slide">
-              <figure className="orbit-figure">
-                <img className="orbit-image" src="http://placehold.it/1200x600/999?text=Slide-1" alt="Space"/>
-                <figcaption className="orbit-caption">Space, the final frontier.</figcaption>
-              </figure>
-            </li>
-          </ul>
+
+          <div className="item">
+            <img src="http://via.placeholder.com/1250x450" alt="" />
+          </div>
+
+          <div className="item">
+            <img src="http://via.placeholder.com/1250x450" alt="" />
+          </div>
         </div>
-        <nav className="orbit-bullets">
-          <button className="is-active" data-slide="0"><span className="show-for-sr">First slide details.</span><span className="show-for-sr">Current Slide</span></button>
-          <button data-slide="1"><span className="show-for-sr">Second slide details.</span></button>
-          <button data-slide="2"><span className="show-for-sr">Third slide details.</span></button>
-          <button data-slide="3"><span className="show-for-sr">Fourth slide details.</span></button>
-        </nav>
+
+        <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span className="glyphicon glyphicon-chevron-left"></span>
+          <span className="sr-only">Previous</span>
+        </a>
+        <a className="right carousel-control" href="#myCarousel" data-slide="next">
+          <span className="glyphicon glyphicon-chevron-right"></span>
+          <span className="sr-only">Next</span>
+        </a>
       </div>
       )
   }
