@@ -35,8 +35,7 @@
 }
 .feedDesc{
   padding-left: 20px;
-  clear: right;
-  width: 600px;
+  /*clear: right;*/
   text-align: left;
   /*background-color: red;*/
 }

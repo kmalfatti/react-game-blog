@@ -1,4 +1,4 @@
-import React, { Component }from 'react';
+import React, { Component } from 'react';
 import Blogpost from './Blogpost.jsx'
 
 export default class BlogpostContainer extends Component {
