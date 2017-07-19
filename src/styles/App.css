@@ -13,16 +13,14 @@
   font-size: large;
 }
 
-.blogpost{
-  width: 33.33%;
-  float: left;
+.blogpost > img{
+  width: 100%;
 }
 
-.blogpost:after {
-    content: "";
-    display: table;
-    clear: both;
+.blogpost{
+  padding: 0;
 }
+
 .feedpost{
   width: 90%;
   margin: 0 auto;
