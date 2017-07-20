@@ -15,10 +15,23 @@
 
 .blogpost > img{
   width: 100%;
+  /*position: relative;*/
 }
 
 .blogpost{
   padding: 0;
+}
+
+.blogpost-desc{
+  color: white;
+  position: absolute;
+  text-align: left;
+  padding-left: 20px;
+  bottom: 5%;
+}
+
+.blogpost-desc > h3 > a {
+ color: white;
 }
 
 .feedpost{
