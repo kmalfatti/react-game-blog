@@ -13,13 +13,24 @@
   font-size: large;
 }
 
+#myCarousel, .carousel-inner > .item > img{
+  min-height: 200px;
+}
+
 .blogpost > img{
   width: 100%;
   /*position: relative;*/
 }
 
+
 .blogpost{
   padding: 0;
+}
+
+.blogpost:hover{
+  transform: scale(1.2);
+  transition-duration: .7s;
+  z-index: 1;
 }
 
 .blogpost-desc{
@@ -35,19 +46,18 @@
 }
 
 .feedpost{
-  width: 90%;
-  margin: 0 auto;
-  clear: both;
-  height: 200px;
+  margin: 50px;
 }
+
 .feedImg{
-  width: 300px;
-  float: left;
+  max-width: 100%;
 }
+
 .feedDesc{
-  padding-left: 20px;
-  /*clear: right;*/
   text-align: left;
-  /*background-color: red;*/
 }
+/**{
+  border: 1px solid red
+}*/
+
 

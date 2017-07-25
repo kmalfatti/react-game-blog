@@ -7,6 +7,11 @@ export default class FeedpostContainer extends Component {
     for (let i=0; i<5; i++ ){
       feedpostContainer.push(<Feedpost/>)
     }
-    return <div>{ feedpostContainer }</div>
+    return (<div className='feed-container clearfix'>
+      <div>
+        <hr/><h3>More recent articles</h3><hr/>
+      </div>
+      { feedpostContainer }
+    </div>)
   }
 }
