@@ -19,12 +19,12 @@
 
 .blogpost > img{
   width: 100%;
-  /*position: relative;*/
 }
 
 
 .blogpost{
   padding: 0;
+  margin-bottom: -1px;
 }
 
 .blogpost:hover{
@@ -46,7 +46,8 @@
 }
 
 .feedpost{
-  margin: 50px;
+  border: .1px solid rgb(211, 211, 211);
+  padding: 10px 0;
 }
 
 .feedImg{
@@ -56,8 +57,33 @@
 .feedDesc{
   text-align: left;
 }
-/**{
-  border: 1px solid red
-}*/
+
+
+.feed-container:before{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+*{
+  /*border: .1px solid red*/
+}
+
+@media screen and (max-width: 990px) {
+  .blogpost:hover {
+    transform: none;
+  }
+  .feedDesc{
+    max-width: 95%;
+    margin: auto; 
+  }
+}
+
+@media screen and (min-width: 990px){
+  .feedpost {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+}
 
 
