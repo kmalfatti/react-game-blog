@@ -52,9 +52,15 @@
 
 .feedImg{
   max-width: 100%;
+  opacity: 0.9;
 }
 
-.feedDesc{
+.feedImg:hover{
+  opacity: 1;
+}
+
+.feedDesc > *{
+  color: black;
   text-align: left;
 }
 
