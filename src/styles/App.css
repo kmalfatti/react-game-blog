@@ -75,28 +75,6 @@
   /*border: .1px solid red*/
 }
 
-@media screen and (max-width: 990px) {
-  .blogpost:hover {
-    transform: none;
-  }
-  .feedDesc{
-    max-width: 95%;
-    margin: auto; 
-  }
-  footer > div:first-child{
-    padding-top: 30px; 
-  }
-  footer > div:last-child{
-    padding-bottom: 15px; 
-  }
-}
-
-@media screen and (min-width: 990px){
-  .feedpost {
-    max-width: 90%;
-    margin: 10px auto;
-  }
-}
 
 footer{
   min-height: 220px;
@@ -104,11 +82,11 @@ footer{
   color: white;
 }
 
-.footer-ul{
+.footer-div{
   margin-top: 40px;
 }
 
-.footer-ul > ul> li{
+.footer-div > ul> li{
   width: 100px;
   text-align: left;
   margin: 0 auto;
@@ -128,7 +106,43 @@ li > a:hover{
   color: red;
 }
 
+a:hover{
+  color:red;
+}
+
 #copy{
   color: rgb(211, 211, 211);
   font-size: 13px;
+}
+
+@media screen and (min-width: 990px){
+  .feedpost {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 990px) {
+  .blogpost:hover {
+    transform: none;
+  }
+  .feedDesc{
+    max-width: 95%;
+    margin: auto; 
+  }
+  .footer-div > ul > li {
+    text-align: center;
+  }
+  .footer-ul-links, .footer-div > ul{
+    padding-left: 0;
+  }
+  footer > div:first-child{
+    padding-top: 30px; 
+  }
+  footer > div:last-child{
+    padding-bottom: 15px; 
+  }
+}
+
+html{
+    overflow-x: hidden; 
 }

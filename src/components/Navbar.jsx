@@ -28,7 +28,7 @@ export default class Navbar extends Component {
                 <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span className="caret"></span></a>
                 <ul className="dropdown-menu">
                   <li><a href="#">PS3</a></li>
-                  <li><a href="#">XBOX 360</a></li>
+                  <li><a href="#">Xbox 360</a></li>
                   <li><a href="#">3DS</a></li>
                   <li role="separator" className="divider"></li>
                   <li><a href="#">Separated link</a></li>
