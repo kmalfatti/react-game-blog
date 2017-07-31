@@ -83,6 +83,12 @@
     max-width: 95%;
     margin: auto; 
   }
+  footer > div:first-child{
+    padding-top: 30px; 
+  }
+  footer > div:last-child{
+    padding-bottom: 15px; 
+  }
 }
 
 @media screen and (min-width: 990px){
@@ -92,4 +98,37 @@
   }
 }
 
+footer{
+  min-height: 220px;
+  background-color: rgb(80, 80, 80);
+  color: white;
+}
 
+.footer-ul{
+  margin-top: 40px;
+}
+
+.footer-ul > ul> li{
+  width: 100px;
+  text-align: left;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.footer-ul-links> li > a{
+  color: white;
+}
+
+.footer-ul-links > li {
+  padding-top: 5px;
+}
+
+li > a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+#copy{
+  color: rgb(211, 211, 211);
+  font-size: 13px;
+}
