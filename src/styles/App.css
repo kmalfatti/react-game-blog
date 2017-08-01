@@ -37,6 +37,15 @@ html{
   z-index: 1;
 }
 
+.blogpost:first-child:hover,
+.blogpost:nth-child(4):hover {
+  transform-origin: left;
+}
+.blogpost:nth-child(3):hover,
+.blogpost:nth-child(6):hover {
+  transform-origin: right;
+}
+
 .blogpost-desc{
   color: white;
   position: absolute;
