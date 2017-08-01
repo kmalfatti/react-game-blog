@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden; 
+}
+
 .App {
   text-align: center;
 }
@@ -115,6 +119,24 @@ a:hover{
   font-size: 13px;
 }
 
+
+i{
+  color: white;
+}
+#social-media-icons{
+  padding: 0;
+}
+#social-media-icons > li{
+  display: inline-block;
+  padding: 0 7px;
+}
+.fa:hover{
+  color:red;
+}
+#follow{
+  text-align: center;
+}
+
 @media screen and (min-width: 990px){
   .feedpost {
     max-width: 90%;
@@ -141,8 +163,4 @@ a:hover{
   footer > div:last-child{
     padding-bottom: 15px; 
   }
-}
-
-html{
-    overflow-x: hidden; 
 }

@@ -27,7 +27,12 @@ export default class Footer extends Component {
           </div>
           <div className='col-md-3 footer-div'>
             <ul className='footer-ul-links'>
-              <li style={{width:'140px'}}><a href="">Request to contribute</a></li>
+              <li id='follow'>Follow us</li>
+              <ul id='social-media-icons'>
+                <li><a href=''><i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href=''><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href=''><i className="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+              </ul>
             </ul>
           </div>
         </footer>
